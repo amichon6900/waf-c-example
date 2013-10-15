@@ -11,10 +11,6 @@ int main(int argc, char **argv) {
   liba_hello();
   fprintf(stdout, "%s", ":: calling liba_hello()... [done]\n");
 
-  fprintf(stdout, "%s", ":: calling liba_goodbye()...\n");
-  liba_goodbye();
-  fprintf(stdout, "%s", ":: calling liba_goodbye()... [done]\n");
-
   fprintf(stdout, "%s", ":: calling libb_hello()...\n");
   libb_hello();
   fprintf(stdout, "%s", ":: calling libb_hello()... [done]\n");
